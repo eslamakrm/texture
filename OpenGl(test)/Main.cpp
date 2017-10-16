@@ -65,7 +65,7 @@ int main()
 	///////////////////////////////////////////////////////////////
 #pragma endregion
 
-	bool usingPoints = false;
+	bool usingPoints = false; //replace with true to use points instead of lines
 	//gradiantTriangle();
 	//colorChangingTriangle();
 	//DrawSquare();
