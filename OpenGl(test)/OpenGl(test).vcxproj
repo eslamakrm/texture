@@ -70,8 +70,8 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <IncludePath>C:\Users\Lenovo\Documents\OpenGl\include;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Users\Lenovo\Documents\OpenGl\Libraries;$(LibraryPath)</LibraryPath>
+    <IncludePath>C:\Users\Lenovo\Documents\OpenGl\OpenGL stuff\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\Lenovo\Documents\OpenGl\OpenGL stuff\libraries;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -117,11 +117,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\Downloads\Compressed\glad\src\glad.c" />
-    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="glad.c" />
+    <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="gradiantTriangle.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="4.1.shader.fs" />
+    <None Include="4.1.shader.vs" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

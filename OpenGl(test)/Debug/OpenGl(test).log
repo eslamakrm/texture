@@ -1,5 +1,7 @@
-﻿  Main.cpp
-c:\users\lenovo\source\repos\opengl(test)\opengl(test)\main.cpp(641): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
-c:\users\lenovo\source\repos\opengl(test)\opengl(test)\main.cpp(642): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+﻿  glad.c
+  main.cpp
+c:\users\lenovo\documents\opengl\opengl stuff\include\learnopengl\shader_s.h(52): warning C4101: 'infoLog': unreferenced local variable
+c:\users\lenovo\documents\opengl\opengl stuff\include\learnopengl\shader_s.h(51): warning C4101: 'success': unreferenced local variable
+c:\users\lenovo\source\repos\opengl(test)\opengl(test)\main.cpp(22): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
   OpenGl(test).vcxproj -> C:\Users\Lenovo\source\repos\OpenGl(test)\Debug\OpenGl(test).exe
   OpenGl(test).vcxproj -> C:\Users\Lenovo\source\repos\OpenGl(test)\Debug\OpenGl(test).pdb (Partial PDB)

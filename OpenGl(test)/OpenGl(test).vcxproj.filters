@@ -15,16 +15,24 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\Downloads\Compressed\glad\src\glad.c">
+    <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Main.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="glad.c">
+      <Filter>Resource Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="gradiantTriangle.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="4.1.shader.fs">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="4.1.shader.vs">
+      <Filter>Source Files</Filter>
+    </None>
   </ItemGroup>
 </Project>
